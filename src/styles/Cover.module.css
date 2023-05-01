@@ -1,0 +1,33 @@
+.coverDiv {
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: 90% 1fr;
+  background: var(--primary);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.heptagon {
+  background: #fff;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+.curlyBracket {
+  height: 300px;
+  font-size: 250px;
+  font-style: italic;
+  color: var(--green-turq);
+}
+
+.floatIcon {
+  background-color: #1b1b1b;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem var(--green-turq), 0 0 0.5rem var(--green-turq);
+}

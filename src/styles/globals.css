@@ -1,0 +1,68 @@
+:root {
+  --primary: #282828;
+  --secondary: #dfdfdf;
+  --green-turq: #7fffd4;
+}
+
+html {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+/* Display */
+.df {
+  display: flex;
+}
+
+.dg {
+  display: grid;
+}
+
+/* Flex */
+.fdc {
+  flex-direction: column;
+}
+
+.fc {
+  align-items: center;
+  justify-content: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.aife {
+  align-items: flex-end;
+}
+
+/* Position */
+.pf {
+  position: fixed;
+}
+
+.pa {
+  position: absolute;
+}
+
+.pr {
+  position: relative;
+}
+
+/* Sizes */
+.htf {
+  height: 100%;
+}
+
+.whf {
+  width: 100%;
+}
+
+/* Text */
+.tac {
+  text-align: center;
+}

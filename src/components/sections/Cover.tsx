@@ -4,7 +4,7 @@ import styles from '@/styles/Cover.module.css'
 export default function Cover(): JSX.Element {
   return (
     <section style={{ height: '100vh', padding: '1.5rem' }}>
-      <div className={`${styles.coverDiv} htf whf dg`}>
+      <div className={`${styles.coverDiv} sectionCard htf whf dg`}>
         <article className='df fc'>
           <div
             className='pr df aife jcc'
@@ -87,7 +87,7 @@ export default function Cover(): JSX.Element {
         >
           <span>21 años</span>
           <span>Machala - Ecuador</span>
-          <span>+593 099 99 99 99</span>
+          <span>+593 999 99 99 99</span>
         </article>
       </div>
     </section>

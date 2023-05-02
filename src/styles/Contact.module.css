@@ -1,0 +1,17 @@
+.link {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 0.5rem var(--violet), 0 0 0.5rem var(--violet);
+  transition: box-shadow 0.3s;
+}
+
+.link:hover {
+  box-shadow: 0 0 0.5rem var(--green-turq), 0 0 0.5rem var(--green-turq);
+}
+
+.divContainer {
+  border-top: 3px solid var(--violet);
+  border-bottom: 3px solid var(--violet);
+}

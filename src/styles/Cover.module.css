@@ -1,9 +1,6 @@
 .coverDiv {
   grid-template-columns: 40% 1fr;
   grid-template-rows: 90% 1fr;
-  background: var(--primary);
-  border-radius: 0.5rem;
-  padding: 1.5rem;
 }
 
 .heptagon {
@@ -29,5 +26,6 @@
 .floatIcon {
   background-color: #1b1b1b;
   border-radius: 0.5rem;
-  box-shadow: 0 0 0.5rem var(--green-turq), 0 0 0.5rem var(--green-turq);
+  box-shadow: 0 0 0.5rem var(--violet), 0 0 0.5rem var(--violet);
+  padding: 0.1rem;
 }
